@@ -64,6 +64,7 @@ scrol_y.config(command=pdf.yview)
 # Finally packing the text widget
 pdf.pack(fill=BOTH,expand=1)
 # Here the PDF is converted to list of images
+#Set the path for poppler
 pages = convert_from_path('FilePath',size=(1200,900),poppler_path=r"C:\Users\sushma\AppData\Local\Programs\Python\Python37-32\Lib\site-packages\poppler-0.68.0\bin")
 photos = []
 # Storing the converted images into list
